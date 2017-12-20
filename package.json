@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.135",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-google-fonts": "0.0.3",
+    "gatsby-plugin-typography": "^1.7.10",
+    "typography": "^0.16.6",
+    "typography-theme-fairy-gates": "^0.15.11",
+    "typography-theme-kirkham": "^0.16.3"
+  }
+}
