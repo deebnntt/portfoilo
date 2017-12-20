@@ -6,6 +6,7 @@ import datewithdestiny from "../datewithdestiny.gif"
 
 export default () => (
   <div>
+    <h3>Recent Projects</h3>
     <div className={styles.box}>
       <h2>magNet</h2>
       <p>Inspired by refrigerator poetry magnets, users can drag and drop randomized words to create their own shareable poems.  Built with React and Ruby on Rails.</p>
@@ -30,8 +31,8 @@ export default () => (
     <br />
 
     <div style={{ textAlign: `center` }}>
-    <p>Download my resume <a href="http://psychedelic-hands.surge.sh/resume.pdf" download="Danielle Bennett Resume">here</a>
-  </p>
+    <p>This site was designed with Gatsby.js and custom CSS.</p>
     </div>
+
   </div>
 );

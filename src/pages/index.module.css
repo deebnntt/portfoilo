@@ -1,3 +1,4 @@
+
 .box {
   background: #f0e0ff;
   text-transform: center;
@@ -26,6 +27,10 @@ h2 {
   font-weight: regular;
 }
 
+h3 {
+  font-family: "Open Sans";
+}
+
 .image {
   height: 2rem;
   align: middle
@@ -51,5 +56,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 530px) {
-  h1 { font-size: 1.2rem; }
+  h1 { font-size: 1.2rem; },
+  p { font-size: 0.8em; }
 }
