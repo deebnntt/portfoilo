@@ -30,8 +30,8 @@ export default () => (
     <br />
 
     <div style={{ textAlign: `center` }}>
-    <p>Download my resume <a href={resume} download="Danielle Bennett Resume">here</a>
-</p>
+    <p>Download my resume <a href="http://psychedelic-hands.surge.sh/resume.pdf" download="Danielle Bennett Resume">here</a>
+  </p>
     </div>
   </div>
 );

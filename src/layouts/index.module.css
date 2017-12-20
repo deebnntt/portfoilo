@@ -22,7 +22,7 @@
   font-family: "Open Sans";
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 530px) {
   h2 { font-size: .9rem; },
   a { font-size: 0.8em; },
   p { font-size: 0.8em; }
