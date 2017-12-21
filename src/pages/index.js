@@ -22,6 +22,8 @@ export default () => (
     <img src={pizza} className={styles.image}/>
     <p>I live in Brooklyn, NY and enjoy salt & vinegar chips and getting lost in a mediocre-to-good book.</p>
   </div>
+
+  <br />
   <br />
   </div>
 );

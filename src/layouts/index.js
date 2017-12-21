@@ -10,8 +10,9 @@ const ListLink = props =>
   </li>
 
 export default ({ children }) =>
-  <div style={{ margin: `0 auto`, maxWidth: 700, padding: `1.25rem 1rem` }}>
-    <header className={styles.header} style={{ marginBottom: `1.5rem`, width: `100%` }}>
+<div>
+  <div style={{ margin: `0 auto`, maxWidth: 800, padding: `1.25rem 1rem` }}>
+    <header className={styles.header} style={{ marginBottom: `1rem`, width: `100%` }}>
       <ListLink to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
         <h2 style={{ display: `inline` }}>DANIELLE BENNETT</h2>
       </ListLink>
@@ -21,7 +22,11 @@ export default ({ children }) =>
       </ul>
     </header>
 
-    <div className={styles.body} style={{ width: `80%`, marginTop: `3.5rem`, marginLeft: `auto`, marginRight: `auto` }}>
+    <div className={styles.body} style={{ width: `80%`, marginTop: `3rem`, marginLeft: `auto`, marginRight: `auto` }}>
       {children()}
     </div>
   </div>
+  <footer className={styles.header} style={{ width: `100%`, position: `fixed`, bottom: `0`, background: `#D8C4E9`, opacity: `0.98`, textAlign: `center`, fontFamily: `Open Sans`, padding: `0.5rem`, margin: `0`, fontSize: `.9rem`, fontStyle: `italic`, fontWeight: `bold` }}>
+      <a href="https://drive.google.com/file/d/1Vf5YNlNuL7J-t53LjVLjFtv-Mb8ckSkK/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a>
+  </footer>
+</div>
