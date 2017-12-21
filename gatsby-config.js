@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `I like Google fonts`
+    title: `Danielle Bennett Portfolio`,
+    siteUrl: `daniellebennett.me`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Open Sans`, `Abril Fatface`] 
+        fonts: [`Open Sans`, `Abril Fatface`]
       }
     },
     {
@@ -28,7 +29,25 @@ module.exports = {
 
         // Exclude global styles from the plugin using a RegExp:
         exclude: `\/global\/`,
+        }
       },
-    }
+      {
+        resolve: `gatsby-plugin-favicon`,
+        options: {
+          logo: "./src/luxury.svg",
+          injectHTML: true,
+          icons: {
+            android: true,
+            appleIcon: true,
+            appleStartup: true,
+            coast: false,
+            favicons: true,
+            firefox: true,
+            twitter: false,
+            yandex: false,
+            windows: false
+          }
+        }
+      }
   ]
 }
