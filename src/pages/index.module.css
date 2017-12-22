@@ -33,6 +33,7 @@ h3 {
 
 .image {
   height: 2rem;
+  margin-bottom: 0.3rem;
   align: middle
 }
 
@@ -41,7 +42,7 @@ h3 {
   margin: 1rem;
 }
 
-.gifDiv {
+.preview {
   width: 90%;
   margin: auto;
 }
@@ -54,9 +55,3 @@ a {
 a:hover {
   text-decoration: none;
 }
-
-/* @media only screen and (max-width: 530px) {
-  h1 { font-size: 1.2rem; },
-  a { font-size: 0.6em; },
-  p { font-size: 0.6em; }
-} */

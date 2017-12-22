@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Danielle Bennett Portfolio`,
-    siteUrl: `daniellebennett.me`,
+    title: 'Danielle Bennett',
+    siteName: 'Danielle Bennett',
   },
   plugins: [
     {
