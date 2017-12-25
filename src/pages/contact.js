@@ -5,7 +5,7 @@ import email from "../email.svg"
 import styles from "./index.module.css";
 
 export default () => (
-  <div style={{ textAlign: `center` }}>
+  <div className={styles.container} style={{ textAlign: `center` }}>
     <h1>Let's Connect.</h1>
 
       <a href="https://www.linkedin.com/in/danielle-bennett-18973930/" alt="LinkedIn"><img className={styles.icon} src={linkedin} /></a>

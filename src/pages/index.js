@@ -10,7 +10,7 @@ export default () => (
 
   <div className={styles.box}>
     <img src={computer} className={styles.image}/>
-    <p>Full stack web developer experienced in Ruby on Rails and React.</p>
+    <p>Full Stack Web Developer experienced in Ruby on Rails and React.</p>
   </div>
 
   <div className={styles.box}>
