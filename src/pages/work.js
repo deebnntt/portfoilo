@@ -18,7 +18,7 @@ export default () => (
         <div className={styles.text}>
           <h2>magNET</h2>
           <p>Inspired by refrigerator poetry magnets, users can drag and drop words to create their own shareable poems.  Built with React and Ruby on Rails.</p>
-          <a href="https://github.com/deebnntt/magNET" target="_blank"><img className={styles.git} src={github}/></a>
+          <a href="https://github.com/deebnntt/magNET"><img className={styles.git} src={github}/></a>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@ export default () => (
         <div className={styles.text}>
           <h2>Weather Complainer</h2>
           <p>Compares historical weather data with today’s forecast to generate a customized “weather complaint”.  Built with JavaScript and Ruby on Rails.</p>
-          <a href="https://github.com/deebnntt/weather_complainer_frontend" target="_blank"><img className={styles.git} src={github}/></a>
+          <a href="https://github.com/deebnntt/weather_complainer_frontend"><img className={styles.git} src={github}/></a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ export default () => (
         <div className={styles.text}>
           <h2>Date With Destiny</h2>
           <p>Generates a complete romantic outing by providing daytime, dining, and nightlife activities based on user location.  Built with Ruby on Rails.</p>
-          <a href="https://github.com/deebnntt/date-with-destiny" target="_blank"><img className={styles.git} src={github}/></a>
+          <a href="https://github.com/deebnntt/date-with-destiny" ><img className={styles.git} src={github}/></a>
         </div>
       </div>
     </div>
