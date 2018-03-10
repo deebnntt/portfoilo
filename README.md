@@ -1,3 +1,3 @@
 built with gatsby.js
 
-# portfoilo
+# portfolio
